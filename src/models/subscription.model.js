@@ -1,7 +1,7 @@
 import mongoose, { Schema } from "mongoose";
 import { User } from "./user.model";
 
-const subscriberSchema = new Schema(
+const subscriptionSchema = new Schema(
     {
         id:{
 
@@ -20,4 +20,4 @@ const subscriberSchema = new Schema(
     
 )
 
-export const Subscription = mongoose.model("Subscription", subscriberSchema)
+export const Subscription = mongoose.model("Subscription", subscriptionSchema)
